@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extension type="module" version="3.7.0" client="site" method="upgrade">
+    <name>mod_banner</name>
+    <author>WebOD LTD</author>
+    <version>1.0.0</version>
+    <description>Joomla! module for adding a banner to your Joomla! site.</description>
+    <files>
+        <folder>tmpl</folder>
+
+        <filename>mod_banner.xml</filename>
+        <filename module="mod_banner">mod_banner.php</filename>
+        <filename>index.html</filename>
+    </files>
+    <config>
+
+        <fields name="params">
+            <fieldset name="basic">
+
+                <field
+                        name="title"
+                        type="text"
+                        label="Title"
+                        required="true"
+                />
+
+                <field
+                        name="content"
+                        type="textarea"
+                        label="Text"
+                        required="true"
+                />
+
+                <field
+                    name="cto_link"
+                    type="text"
+                    label="CTO Link"
+                />
+
+                <field
+                    name="cto_text"
+                    type="text"
+                    label="CTO Text"
+                />
+
+                <field
+                        name="image_url"
+                        type="text"
+                        label="Background Image URL"
+                        required="true"
+                />
+
+                <field
+                        name="rating_current"
+                        type="text"
+                        label="Current Rating"
+                        default="4.9"
+                />
+
+                <field
+                        name="rating_maximum"
+                        type="text"
+                        label="Maximum Rating"
+                        default="5"
+                />
+
+                <field
+                        name="rating_link"
+                        type="text"
+                        label="Rating Link"
+                        default=""
+                />
+
+            </fieldset>
+        </fields>
+    </config>
+</extension>

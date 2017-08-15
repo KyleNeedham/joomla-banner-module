@@ -1,0 +1,9 @@
+{
+  "name": "anythingnative/joomla-banner-module",
+  "version": "0.1",
+  "require": {
+    "friendsofphp/php-cs-fixer": "^2.4",
+    "joomla/registry": "~1.0",
+    "malukenho/docheader": "^0.1.6"
+  }
+}
