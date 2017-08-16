@@ -16,7 +16,7 @@ namespace {
     $ctoText = $params->get('cto_text', '');
     $ctoLink = $params->get('cto_link', '');
     $ratingCurrent = $params->get('rating_current', '');
-    $ratingMax = $params->get('rating_max', '');
+    $ratingMax = $params->get('rating_maximum', '');
     $ratingLink = $params->get('rating_link', '');
 
     require JModuleHelper::getLayoutPath('mod_banner', 'default');
