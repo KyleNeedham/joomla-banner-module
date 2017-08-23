@@ -8,7 +8,7 @@
 
 /** @var string $title */
 /** @var string $imageUrl */
-/** @var string $content */
+/** @var string $body */
 /** @var string $ctoText */
 /** @var string $ctoLink */
 /** @var string $ratingCurrent */
@@ -30,9 +30,9 @@
                         </h3>
 <?php endif; ?>
 
-<?php if (strlen($content) > 0): ?>
+<?php if (strlen($body) > 0): ?>
                         <p class="promo-text">
-                            <?php echo $content; ?>
+                            <?php echo $body; ?>
                         </p>
 <?php endif; ?>
 

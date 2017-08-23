@@ -12,7 +12,7 @@ namespace {
 
     $title = $params->get('title', '');
     $imageUrl = $params->get('image_url', '');
-    $content = $params->get('content', '');
+    $body = $params->get('content', '');
     $ctoText = $params->get('cto_text', '');
     $ctoLink = $params->get('cto_link', '');
     $ratingCurrent = $params->get('rating_current', '');
@@ -20,6 +20,4 @@ namespace {
     $ratingLink = $params->get('rating_link', '');
 
     require JModuleHelper::getLayoutPath('mod_banner', 'default');
-
-    unset($content);
 }
