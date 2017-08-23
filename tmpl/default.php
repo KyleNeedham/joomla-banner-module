@@ -8,6 +8,7 @@
 
 /** @var string $title */
 /** @var string $imageUrl */
+/** @var string $imagePosition */
 /** @var string $body */
 /** @var string $ctoText */
 /** @var string $ctoLink */
@@ -17,7 +18,7 @@
 
 ?>
 
-<section class="promo" style="background-image: url(<?php echo $imageUrl; ?>);">
+<section class="promo" style="background-image: url(<?php echo $imageUrl; ?>); background-position: <?php echo $imagePosition; ?>;">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-xs-8 col-sm-10 col-lg-6">

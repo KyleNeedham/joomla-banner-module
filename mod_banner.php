@@ -12,6 +12,7 @@ namespace {
 
     $title = $params->get('title', '');
     $imageUrl = $params->get('image_url', '');
+    $imagePosition = $params->get('image_pos', '');
     $body = $params->get('content', '');
     $ctoText = $params->get('cto_text', '');
     $ctoLink = $params->get('cto_link', '');

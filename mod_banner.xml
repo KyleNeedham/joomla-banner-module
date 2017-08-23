@@ -51,6 +51,14 @@
                 />
 
                 <field
+                        name="image_pos"
+                        type="text"
+                        label="Background Image Position"
+                        default="center center"
+                        required="true"
+                />
+
+                <field
                         name="rating_current"
                         type="text"
                         label="Current Rating"
