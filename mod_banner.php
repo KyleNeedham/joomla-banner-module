@@ -16,6 +16,8 @@ namespace {
     $body = $params->get('content', '');
     $ctoText = $params->get('cto_text', '');
     $ctoLink = $params->get('cto_link', '');
+    $ctoText2 = $params->get('cto_text2', '');
+    $ctoLink2 = $params->get('cto_link2', '');
     $ratingCurrent = $params->get('rating_current', '');
     $ratingMax = $params->get('rating_maximum', '');
     $ratingLink = $params->get('rating_link', '');

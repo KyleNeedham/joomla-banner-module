@@ -32,15 +32,27 @@
                 />
 
                 <field
-                    name="cto_link"
-                    type="text"
-                    label="CTO Link"
+                        name="cto_link"
+                        type="text"
+                        label="CTO Link"
                 />
 
                 <field
-                    name="cto_text"
-                    type="text"
-                    label="CTO Text"
+                        name="cto_text"
+                        type="text"
+                        label="CTO Text"
+                />
+
+                <field
+                        name="cto_link2"
+                        type="text"
+                        label="CTO Link 2"
+                />
+
+                <field
+                        name="cto_text2"
+                        type="text"
+                        label="CTO Text 2"
                 />
 
                 <field
